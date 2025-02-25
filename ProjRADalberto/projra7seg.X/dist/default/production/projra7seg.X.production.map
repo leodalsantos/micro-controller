@@ -1,0 +1,59 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Mon Apr 08 11:25:12 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000100    program   0x00008c
+.config_300001_BUILD/DEFAULT/PRODUCTION/PROJRA7    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/PROJRA7    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/PROJRA7    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/PROJRA7    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/PROJRA7    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000100    0x00018b      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+            151 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                       D1   0x000110    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                   DEC_R0   0x000164    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                   DEC_R1   0x000160    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                   DEC_R2   0x00015c    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                  DEC__R0   0x00017e    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                  DEC__R1   0x00017a    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                  DEC__R2   0x000176    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                   INICIO   0x000100    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                  delay50   0x000158    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                 delay500   0x000172    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000100    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                       D1   0x000110    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                  delay50   0x000158    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                   DEC_R2   0x00015c    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                   DEC_R1   0x000160    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                   DEC_R0   0x000164    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                 delay500   0x000172    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                  DEC__R2   0x000176    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                  DEC__R1   0x00017a    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+                  DEC__R0   0x00017e    program     static C:\Users\Aluno\Desktop\ProjRADalberto\projra7seg.X\projra7seg.asm
+
+

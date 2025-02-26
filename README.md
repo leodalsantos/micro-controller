@@ -1,1 +1,1 @@
-# mic-crontoller
+# micro-controller
